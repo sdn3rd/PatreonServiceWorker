@@ -1,0 +1,13 @@
+# wrangler.toml
+
+name = "patreon-poetry-worker"
+main = "worker.js"
+compatibility_date = "2023-10-16"
+
+# Replace with your Cloudflare account ID
+account_id = "your-account-id"
+
+# Specify the workers.dev subdomain (replace with your own)
+workers_dev = true
+
+# No environment variables needed since we're declaring them in worker.js
